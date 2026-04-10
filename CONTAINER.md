@@ -15,9 +15,16 @@ See [README.md](README.md) for full documentation and configuration reference.
 
 - `x.y-phpA.B.C`: Latest patch of `x.y` with PHP `A.B.C`.
 - `x-phpA.B.C`: Latest minor+patch of `x` with PHP `A.B.C`.
+- `x.y.z-phpA.B`: Version `x.y.z` with latest patch of PHP `A.B` (only latest container version updated).
+- `x.y-phpA.B`: Latest patch of `x.y` with latest patch of PHP `A.B`.
+- `x-phpA.B`: Latest minor+patch of `x` with latest patch of PHP `A.B`.
+- `x.y.z-phpA`: Version `x.y.z` with latest minor+patch of PHP `A` (only latest container version updated).
+- `x.y-phpA`: Latest patch of `x.y` with latest minor+patch of PHP `A`.
+- `x-phpA`: Latest minor+patch of `x` with latest minor+patch of PHP `A`.
 - `x.y.z`: Version `x.y.z` with latest PHP (only latest container version updated).
-- `x.y`: Latest patch of `x.y` with latest PHP (only latest container major.minor updated).
-- `x`: Latest minor+patch of `x` with latest PHP (only latest container major updated).
+- `x.y`: Latest patch of `x.y` with latest PHP.
+- `x`: Latest minor+patch of `x` with latest PHP.
+- `phpA.B.C`: Latest container with PHP `A.B.C`.
 - `phpA.B`: Latest container with latest patch of PHP `A.B`.
 - `phpA`: Latest container with latest minor+patch of PHP `A`.
 - `latest`: Latest `x.y.z-phpA.B.C` tag.

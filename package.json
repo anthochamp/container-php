@@ -1,5 +1,7 @@
 {
 	"private": true,
+	"description": "PHP container pre-configured with the production php.ini settings",
+	"author": "Anthony Champagne <dev@anthonychampagne.fr>",
 	"scripts": {
 		"test": "node --import=tsx --test-concurrency 1 --test tests/**/*.test.*",
 		"tsc:check": "tsc -noEmit -p ./tsconfig.json",
